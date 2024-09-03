@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Arthur Soares</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="profile">
+                <div class="profile-info">
+                    <h1>Meu Portfolio</h1>
+                    <h3>Arthur Soares</h3>
+                    <p>Estudante ADS | Entusiasta de Tecnologia</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <nav>
+        <a href="#sobre">Sobre Mim</a>
+        <a href="#formacao">Formacao</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <div class="container">
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Oi! Sou um estudande de analise e desenvolvimento de sistemas, apaixonado por todas as areas de computação sempre em busca de novos desafios. 
+            </p>
+        </section>
+
+        <section id="formacao">
+            <h2>Formação</h2>
+            <div class="education">
+                <div class="degree">
+                    <h3>Ensino Médio - Completo</h3>
+                    <p>Colégio Aptus | Ano de Conclusão: 2018</p>
+                </div>
+                <div class="degree ongoing">
+                    <h3>Superior em Análise e Desenvolvimento de Sistemas - Em andamento</h3>
+                    <p>Uninter | Em andamento</p>
+                </div>
+                <div class="languages">
+                    <h3>Idiomas</h3>
+                    <p>Inglês | Intermediário</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <h2>Projetos</h2>
+            <div class="projects">
+                <div class="project">
+                    <img src="img/pokedex.png" alt="Projeto 1">
+                    <h3><a href="https://arthurssoares.github.io/pokedex/">Pokédex</a></h3>
+                    <h4>Uma pokedex com informações puxadas de uma api publica. </h4> <p> nesse projeto eu adicionei um modal numa especie de cartinhas com algumas informações dos pokemons, mostrando tambem as formas deles na versao 2d e 3d e varias outras informacões</p>
+                </div>
+                <div class="project">
+                    <img src="img/Captura de tela 2024-09-02 211950.png" alt="Projeto 2">
+                    <h3><a href="https://arthurssoares.github.io/Portfolio/">Portfolio</a></h3>
+                    <h4>Um breve portfolio, Feito no meu curso de javascript pela dio.</h4>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contact">
+            <h2>Contato</h2>
+
+            <form>
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="2" required></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        
+
+    </div>
+
+    <footer>
+        <p>&copy; Portfólio de Arthur Soares</p>
+    </footer>
+</body>
+</html>
